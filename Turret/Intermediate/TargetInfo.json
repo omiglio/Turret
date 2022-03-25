@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Turret",
+			"Path": "C:\\Users\\omigl\\Documents\\Turret\\Turret\\Source\\Turret.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TurretEditor",
+			"Path": "C:\\Users\\omigl\\Documents\\Turret\\Turret\\Source\\TurretEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
