@@ -1051,3 +1051,999 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.31-02.54.57:394][410]AssetCheck: New page: Asset Save: FirstPersonExampleMap
 [2022.03.31-02.54.57:394][410]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
 [2022.03.31-02.55.30:090][234]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.03.31-02.57.44:630][449]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.31-02.57.44:638][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.31-02.57.44:639][449]PIE: New page: PIE session: FirstPersonExampleMap (Mar 30, 2022, 12:57:44 PM)
+[2022.03.31-02.57.44:639][449]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.03.31-02.57.44:667][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027623s)
+[2022.03.31-02.57.44:668][449]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.03.31-02.57.44:668][449]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2022.03.31-02.57.44:668][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029044s)
+[2022.03.31-02.57.44:673][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.03.31-02.57.44:674][449]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.03.31-02.57.44:674][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.31-02.57.44:674][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.31-02.57.44:674][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.31-02.57.44:674][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.31-02.57.44:674][449]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.31-02.57.44:674][449]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.31-02.57.44:674][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.31-02.57.44:674][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.31-02.57.44:675][449]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.31-02.57.44:675][449]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.31-02.57.44:680][449]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.31-02.57.44:680][449]LogAudioMixer: Display: 1: FrontRight
+[2022.03.31-02.57.44:687][449]LogAudioMixer: Display: Using Audio Device Speakers (Elgato Sound Capture)
+[2022.03.31-02.57.44:687][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.31-02.57.44:688][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.31-02.57.44:688][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.31-02.57.44:688][449]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.31-02.57.44:688][449]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.31-02.57.44:688][449]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.31-02.57.44:706][449]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.31-02.57.44:706][449]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.31-02.57.44:706][449]LogInit: FAudioDevice initialized.
+[2022.03.31-02.57.44:706][449]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonExampleMap'.
+[2022.03.31-02.57.44:714][449]LogLoad: Game class is 'GameModeBase'
+[2022.03.31-02.57.44:715][449]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.03.30-19.57.44
+[2022.03.31-02.57.44:716][449]LogWorld: Bringing up level for play took: 0.001374
+[2022.03.31-02.57.44:716][449]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.03.31-02.57.44:718][449]PIE: Server logged in
+[2022.03.31-02.57.44:719][449]PIE: Play in editor total start time 0.085 seconds.
+[2022.03.31-02.57.46:051][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-02.57.46:051][550]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.03.31-02.57.46:051][550]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-02.57.46:052][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-02.57.46:063][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.31-02.57.46:120][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-02.57.46:126][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-02.57.46:126][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-02.57.46:128][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-02.57.46:149][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.03.31-02.57.46:171][551]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.03.31-02.58.06:202][206]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.03.31-02.58.22:319][207]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" -game -rocket -progress
+[2022.03.31-02.58.22:927][207]Discovering modules, targets and source code for project...
+[2022.03.31-02.58.29:460][207]Binding IntelliSense data...
+[2022.03.31-02.58.37:914][207]Binding IntelliSense data... 100%
+[2022.03.31-02.58.37:914][207]Writing project files...
+[2022.03.31-02.58.45:359][207]Writing project files... 100%
+[2022.03.31-02.58.45:512][207]Candidate modules for hot reload:
+[2022.03.31-02.58.45:512][207]  Turret
+[2022.03.31-02.58.45:512][207]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turret,7053 TurretEditor Win64 Development -Project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" "C:/Users/omigl/Documents/Turret/Turret/Turret.uproject"  -IgnoreJunk]
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: New page: Compilation - Mar 30, 2022, 12:59:35 PM
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\Turret).
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: Creating makefile for TurretEditor (no existing makefile)
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: Parsing headers for TurretEditor
+[2022.03.31-02.59.35:283][207]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\omigl\Documents\Turret\Turret\Turret.uproject" "C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\TurretEditor\Development\TurretEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\omigl\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: Reflection code generated for TurretEditor in 40.6785377 seconds
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: Building TurretEditor...
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.03.31-02.59.35:283][207]CompilerResultsLog:   [1/6] Turret.init.gen.cpp
+[2022.03.31-02.59.35:283][207]CompilerResultsLog:   [2/6] TurretGameMode.cpp
+[2022.03.31-02.59.35:283][207]CompilerResultsLog:   [3/6] TurretGameMode.gen.cpp
+[2022.03.31-02.59.35:283][207]CompilerResultsLog:   [4/6] UE4Editor-Turret-7053.lib
+[2022.03.31-02.59.35:283][207]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-7053.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-7053.exp
+[2022.03.31-02.59.35:283][207]CompilerResultsLog:   [5/6] UE4Editor-Turret-7053.dll
+[2022.03.31-02.59.35:283][207]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-7053.suppressed.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-7053.suppressed.exp
+[2022.03.31-02.59.35:283][207]CompilerResultsLog:   [6/6] TurretEditor.target
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: Total time in Parallel executor: 2.49 seconds
+[2022.03.31-02.59.35:283][207]CompilerResultsLog: Total execution time: 46.13 seconds
+[2022.03.31-02.59.35:284][207]LogMainFrame: MainFrame: Module compiling took 49.803 seconds
+[2022.03.31-02.59.39:360][207]LogClass: Could not find existing class TurretGameMode in package /Script/Turret for HotReload, assuming new class
+[2022.03.31-02.59.39:369][207]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turret' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2022.03.31-02.59.39:371][207]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.03.31-02.59.39:431][207]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0128 seconds. Added 3606 classes and 861 folders.
+[2022.03.31-02.59.39:431][207]Display: HotReload took 54.0s.
+[2022.03.31-02.59.39:435][207]Warning: HotReload operation took 54.0s.
+[2022.03.31-02.59.41:924][207]LogVSAccessor: Warning: Couldn't open file 'C:/Users/omigl/Documents/Turret/Turret/Source/Turret/TurretGameMode.cpp'.
+[2022.03.31-02.59.41:928][207]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.03.31-02.59.41:940][207]LogHotReload: New module detected: UE4Editor-Turret-7053.dll
+[2022.03.31-02.59.42:013][208]LogHotReload: Starting Hot-Reload from IDE
+[2022.03.31-02.59.42:032][208]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turret' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.03.31-02.59.42:033][208]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.31-02.59.42:049][208]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0128 seconds. Added 3606 classes and 861 folders.
+[2022.03.31-02.59.42:053][208]Display: HotReload took  0.0s.
+[2022.03.31-03.27.15:269][363]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.31-03.27.15:278][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.31-03.27.15:278][363]PIE: New page: PIE session: FirstPersonExampleMap (Mar 30, 2022, 1:27:15 PM)
+[2022.03.31-03.27.15:278][363]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.03.31-03.27.15:289][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010805s)
+[2022.03.31-03.27.15:290][363]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.03.31-03.27.15:291][363]LogPlayLevel: PIE: World Init took: (0.001372s)
+[2022.03.31-03.27.15:291][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012377s)
+[2022.03.31-03.27.15:295][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.03.31-03.27.15:297][363]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.03.31-03.27.15:297][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.31-03.27.15:297][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.31-03.27.15:297][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.31-03.27.15:297][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.31-03.27.15:297][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.31-03.27.15:297][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.31-03.27.15:297][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.31-03.27.15:297][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.31-03.27.15:297][363]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.31-03.27.15:297][363]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.31-03.27.15:302][363]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.31-03.27.15:302][363]LogAudioMixer: Display: 1: FrontRight
+[2022.03.31-03.27.15:309][363]LogAudioMixer: Display: Using Audio Device Speakers (Elgato Sound Capture)
+[2022.03.31-03.27.15:310][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.31-03.27.15:310][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.31-03.27.15:310][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.31-03.27.15:310][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.31-03.27.15:310][363]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.31-03.27.15:310][363]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.31-03.27.15:327][363]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.31-03.27.15:327][363]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.31-03.27.15:327][363]LogInit: FAudioDevice initialized.
+[2022.03.31-03.27.15:327][363]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonExampleMap'.
+[2022.03.31-03.27.15:339][363]LogLoad: Game class is 'TurretGameMode'
+[2022.03.31-03.27.15:341][363]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.03.30-20.27.15
+[2022.03.31-03.27.15:341][363]LogWorld: Bringing up level for play took: 0.001357
+[2022.03.31-03.27.15:341][363]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.03.31-03.27.15:344][363]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2022.03.31-03.27.15:655][363]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2022.03.31-03.27.15:655][363]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2022.03.31-03.27.15:692][363]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2022.03.31-03.27.15:692][363]PIE: Server logged in
+[2022.03.31-03.27.15:694][363]PIE: Play in editor total start time 0.421 seconds.
+[2022.03.31-03.27.16:380][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-03.27.16:380][415]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.03.31-03.27.16:381][415]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-03.27.16:381][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-03.27.16:388][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.31-03.27.16:420][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-03.27.16:425][415]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.31-03.27.16:426][415]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-03.27.16:427][415]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-03.27.16:446][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-03.27.16:448][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.03.31-03.27.16:471][416]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.03.31-03.47.14:044][328]Candidate modules for hot reload:
+[2022.03.31-03.47.14:044][328]  Turret
+[2022.03.31-03.47.14:045][328]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turret,1981 TurretEditor Win64 Development -Project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" "C:/Users/omigl/Documents/Turret/Turret/Turret.uproject"  -IgnoreJunk]
+[2022.03.31-03.47.14:047][328]Warning: Starting HotReload took  0.0s.
+[2022.03.31-03.47.24:248][589]CompilerResultsLog: New page: Compilation - Mar 30, 2022, 1:47:24 PM
+[2022.03.31-03.47.24:248][589]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\Turret).
+[2022.03.31-03.47.24:248][589]CompilerResultsLog: Parsing headers for TurretEditor
+[2022.03.31-03.47.24:248][589]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\omigl\Documents\Turret\Turret\Turret.uproject" "C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\TurretEditor\Development\TurretEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\omigl\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.31-03.47.24:248][589]CompilerResultsLog: Reflection code generated for TurretEditor in 7.8632877 seconds
+[2022.03.31-03.47.24:248][589]CompilerResultsLog: Building TurretEditor...
+[2022.03.31-03.47.24:248][589]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.31-03.47.24:248][589]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.03.31-03.47.24:248][589]CompilerResultsLog:   [1/6] TurretGameMode.cpp
+[2022.03.31-03.47.24:248][589]CompilerResultsLog:    C:\Users\omigl\Documents\Turret\Turret\Source\Turret\TurretGameMode.cpp(14) : error C2084: function 'void ATurretGameMode::BeginPlay(void)' already has a body
+[2022.03.31-03.47.24:248][589]CompilerResultsLog:   C:\Users\omigl\Documents\Turret\Turret\Source\Turret\TurretGameMode.cpp(8): note: see previous definition of 'BeginPlay'
+[2022.03.31-03.47.24:248][589]CompilerResultsLog:   [2/6] Turret.init.gen.cpp
+[2022.03.31-03.47.24:248][589]CompilerResultsLog:   [3/6] TurretGameMode.gen.cpp
+[2022.03.31-03.47.24:248][589]LogMainFrame: MainFrame: Module compiling took 10.209 seconds
+[2022.03.31-03.47.24:292][589]Warning: HotReload failed, recompile failed
+[2022.03.31-03.47.33:654][699]Candidate modules for hot reload:
+[2022.03.31-03.47.33:654][699]  Turret
+[2022.03.31-03.47.33:654][699]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turret,1113 TurretEditor Win64 Development -Project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" "C:/Users/omigl/Documents/Turret/Turret/Turret.uproject"  -IgnoreJunk]
+[2022.03.31-03.47.33:657][699]Warning: Starting HotReload took  0.0s.
+[2022.03.31-03.47.35:536][796]CompilerResultsLog: New page: Compilation - Mar 30, 2022, 1:47:35 PM
+[2022.03.31-03.47.35:536][796]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\Turret).
+[2022.03.31-03.47.35:536][796]CompilerResultsLog: Building TurretEditor...
+[2022.03.31-03.47.35:536][796]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.31-03.47.35:536][796]CompilerResultsLog: Building 4 actions with 16 processes...
+[2022.03.31-03.47.35:536][796]CompilerResultsLog:   [1/4] TurretGameMode.cpp
+[2022.03.31-03.47.35:536][796]CompilerResultsLog:    C:\Users\omigl\Documents\Turret\Turret\Source\Turret\TurretGameMode.cpp(14) : error C2084: function 'void ATurretGameMode::BeginPlay(void)' already has a body
+[2022.03.31-03.47.35:536][796]CompilerResultsLog:   C:\Users\omigl\Documents\Turret\Turret\Source\Turret\TurretGameMode.cpp(8): note: see previous definition of 'BeginPlay'
+[2022.03.31-03.47.35:536][796]LogMainFrame: MainFrame: Module compiling took 1.887 seconds
+[2022.03.31-03.47.35:537][796]Warning: HotReload failed, recompile failed
+[2022.03.31-03.47.52:586][832]LogSlate: Window 'Message Log' being destroyed
+[2022.03.31-03.47.52:598][832]LogSlate: Window 'Message Log' being destroyed
+[2022.03.31-03.48.17:682][257]Candidate modules for hot reload:
+[2022.03.31-03.48.17:682][257]  Turret
+[2022.03.31-03.48.17:683][257]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turret,3868 TurretEditor Win64 Development -Project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" "C:/Users/omigl/Documents/Turret/Turret/Turret.uproject"  -IgnoreJunk]
+[2022.03.31-03.48.17:685][257]Warning: Starting HotReload took  0.0s.
+[2022.03.31-03.48.19:651][344]CompilerResultsLog: New page: Compilation - Mar 30, 2022, 1:48:19 PM
+[2022.03.31-03.48.19:652][344]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\Turret).
+[2022.03.31-03.48.19:652][344]CompilerResultsLog: Building TurretEditor...
+[2022.03.31-03.48.19:652][344]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.31-03.48.19:652][344]CompilerResultsLog: Building 4 actions with 16 processes...
+[2022.03.31-03.48.19:652][344]CompilerResultsLog:   [1/4] TurretGameMode.cpp
+[2022.03.31-03.48.19:652][344]CompilerResultsLog:    C:\Users\omigl\Documents\Turret\Turret\Source\Turret\TurretGameMode.cpp(14) : error C2084: function 'void ATurretGameMode::BeginPlay(void)' already has a body
+[2022.03.31-03.48.19:652][344]CompilerResultsLog:   C:\Users\omigl\Documents\Turret\Turret\Source\Turret\TurretGameMode.cpp(8): note: see previous definition of 'BeginPlay'
+[2022.03.31-03.48.19:652][344]LogMainFrame: MainFrame: Module compiling took 1.973 seconds
+[2022.03.31-03.48.19:652][344]Warning: HotReload failed, recompile failed
+[2022.03.31-03.53.09:210][497]LogSlate: Window 'Message Log' being destroyed
+[2022.03.31-03.53.09:220][497]LogSlate: Window 'Message Log' being destroyed
+[2022.03.31-03.53.10:027][556]Candidate modules for hot reload:
+[2022.03.31-03.53.10:027][556]  Turret
+[2022.03.31-03.53.10:027][556]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turret,2388 TurretEditor Win64 Development -Project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" "C:/Users/omigl/Documents/Turret/Turret/Turret.uproject"  -IgnoreJunk]
+[2022.03.31-03.53.10:030][556]Warning: Starting HotReload took  0.0s.
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog: New page: Compilation - Mar 30, 2022, 1:53:24 PM
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\Turret).
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog: Parsing headers for TurretEditor
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\omigl\Documents\Turret\Turret\Turret.uproject" "C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\TurretEditor\Development\TurretEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\omigl\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog: Reflection code generated for TurretEditor in 10.93047 seconds
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog: Building TurretEditor...
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog: Building 5 actions with 16 processes...
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog:   [1/5] TurretGameMode.cpp
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog:    C:\Users\omigl\Documents\Turret\Turret\Source\Turret\TurretGameMode.cpp(14) : error C2084: function 'void ATurretGameMode::BeginPlay(void)' already has a body
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog:   C:\Users\omigl\Documents\Turret\Turret\Source\Turret\TurretGameMode.cpp(8): note: see previous definition of 'BeginPlay'
+[2022.03.31-03.53.24:574][ 27]CompilerResultsLog:   [2/5] TurretGameMode.gen.cpp
+[2022.03.31-03.53.24:574][ 27]LogMainFrame: MainFrame: Module compiling took 14.551 seconds
+[2022.03.31-03.53.24:574][ 27]Warning: HotReload failed, recompile failed
+[2022.03.31-03.57.17:667][416]LogSlate: Window 'Message Log' being destroyed
+[2022.03.31-03.57.17:672][416]LogSlate: Window 'Message Log' being destroyed
+[2022.03.31-03.57.18:967][514]Candidate modules for hot reload:
+[2022.03.31-03.57.18:967][514]  Turret
+[2022.03.31-03.57.18:968][514]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turret,3227 TurretEditor Win64 Development -Project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" "C:/Users/omigl/Documents/Turret/Turret/Turret.uproject"  -IgnoreJunk]
+[2022.03.31-03.57.18:970][514]Warning: Starting HotReload took  0.0s.
+[2022.03.31-03.57.23:072][594]CompilerResultsLog: New page: Compilation - Mar 30, 2022, 1:57:23 PM
+[2022.03.31-03.57.23:072][594]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\Turret).
+[2022.03.31-03.57.23:072][594]CompilerResultsLog: Building TurretEditor...
+[2022.03.31-03.57.23:072][594]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.31-03.57.23:072][594]CompilerResultsLog: Building 4 actions with 16 processes...
+[2022.03.31-03.57.23:072][594]CompilerResultsLog:   [1/4] TurretGameMode.cpp
+[2022.03.31-03.57.23:072][594]CompilerResultsLog:   [2/4] UE4Editor-Turret-3227.lib
+[2022.03.31-03.57.23:072][594]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-3227.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-3227.exp
+[2022.03.31-03.57.23:072][594]CompilerResultsLog:   [3/4] UE4Editor-Turret-3227.dll
+[2022.03.31-03.57.23:072][594]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-3227.suppressed.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-3227.suppressed.exp
+[2022.03.31-03.57.23:072][594]CompilerResultsLog:   [4/4] TurretEditor.target
+[2022.03.31-03.57.23:072][594]CompilerResultsLog: Total time in Parallel executor: 3.17 seconds
+[2022.03.31-03.57.23:072][594]CompilerResultsLog: Total execution time: 3.99 seconds
+[2022.03.31-03.57.23:072][594]LogMainFrame: MainFrame: Module compiling took 4.110 seconds
+[2022.03.31-03.57.27:167][594]LogClass: Could not find existing class TurretGameMode in package /Script/Turret for HotReload, assuming new class
+[2022.03.31-03.57.27:180][594]LogHotReload: Re-instancing TurretGameMode after hot-reload.
+[2022.03.31-03.57.27:185][594]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turret' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2022.03.31-03.57.27:187][594]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.03.31-03.57.27:230][594]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0136 seconds. Added 3606 classes and 861 folders.
+[2022.03.31-03.57.27:230][594]Display: HotReload took  8.3s.
+[2022.03.31-03.57.31:658][683]Candidate modules for hot reload:
+[2022.03.31-03.57.31:658][683]  Turret
+[2022.03.31-03.57.31:658][683]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turret,7776 TurretEditor Win64 Development -Project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" "C:/Users/omigl/Documents/Turret/Turret/Turret.uproject"  -IgnoreJunk]
+[2022.03.31-03.57.31:660][683]Warning: Starting HotReload took  0.0s.
+[2022.03.31-03.57.34:113][846]CompilerResultsLog: New page: Compilation - Mar 30, 2022, 1:57:34 PM
+[2022.03.31-03.57.34:113][846]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\Turret).
+[2022.03.31-03.57.34:113][846]CompilerResultsLog: Building TurretEditor...
+[2022.03.31-03.57.34:113][846]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.31-03.57.34:113][846]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.03.31-03.57.34:113][846]CompilerResultsLog:   [1/3] UE4Editor-Turret-7776.lib
+[2022.03.31-03.57.34:113][846]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-7776.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-7776.exp
+[2022.03.31-03.57.34:113][846]CompilerResultsLog:   [2/3] UE4Editor-Turret-7776.dll
+[2022.03.31-03.57.34:113][846]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-7776.suppressed.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-7776.suppressed.exp
+[2022.03.31-03.57.34:113][846]CompilerResultsLog:   [3/3] TurretEditor.target
+[2022.03.31-03.57.34:113][846]CompilerResultsLog: Total time in Parallel executor: 1.41 seconds
+[2022.03.31-03.57.34:113][846]CompilerResultsLog: Total execution time: 2.23 seconds
+[2022.03.31-03.57.34:113][846]LogMainFrame: MainFrame: Module compiling took 2.459 seconds
+[2022.03.31-03.57.34:487][846]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turret' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.03.31-03.57.34:488][846]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.03.31-03.57.34:528][846]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0128 seconds. Added 3606 classes and 861 folders.
+[2022.03.31-03.57.34:528][846]Display: HotReload took  2.9s.
+[2022.03.31-03.57.37:740][ 41]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.31-03.57.37:749][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.31-03.57.37:749][ 41]PIE: New page: PIE session: FirstPersonExampleMap (Mar 30, 2022, 1:57:37 PM)
+[2022.03.31-03.57.37:750][ 41]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.03.31-03.57.37:760][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010565s)
+[2022.03.31-03.57.37:761][ 41]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.03.31-03.57.37:762][ 41]LogPlayLevel: PIE: World Init took: (0.001341s)
+[2022.03.31-03.57.37:762][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012090s)
+[2022.03.31-03.57.37:788][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.03.31-03.57.37:790][ 41]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.03.31-03.57.37:790][ 41]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.31-03.57.37:790][ 41]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.31-03.57.37:790][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.31-03.57.37:790][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.31-03.57.37:790][ 41]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.31-03.57.37:790][ 41]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.31-03.57.37:790][ 41]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.31-03.57.37:790][ 41]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.31-03.57.37:790][ 41]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.31-03.57.37:790][ 41]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.31-03.57.37:795][ 41]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.31-03.57.37:795][ 41]LogAudioMixer: Display: 1: FrontRight
+[2022.03.31-03.57.37:802][ 41]LogAudioMixer: Display: Using Audio Device Speakers (Elgato Sound Capture)
+[2022.03.31-03.57.37:803][ 41]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.31-03.57.37:803][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.31-03.57.37:803][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.31-03.57.37:804][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.31-03.57.37:804][ 41]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.31-03.57.37:804][ 41]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.31-03.57.37:821][ 41]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.31-03.57.37:821][ 41]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.31-03.57.37:821][ 41]LogInit: FAudioDevice initialized.
+[2022.03.31-03.57.37:821][ 41]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonExampleMap'.
+[2022.03.31-03.57.37:831][ 41]LogLoad: Game class is 'TurretGameMode'
+[2022.03.31-03.57.37:833][ 41]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.03.30-20.57.37
+[2022.03.31-03.57.37:833][ 41]LogWorld: Bringing up level for play took: 0.001381
+[2022.03.31-03.57.37:834][ 41]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.03.31-03.57.37:836][ 41]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2022.03.31-03.57.37:836][ 41]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2022.03.31-03.57.37:837][ 41]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2022.03.31-03.57.37:837][ 41]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2022.03.31-03.57.37:837][ 41]PIE: Server logged in
+[2022.03.31-03.57.37:838][ 41]PIE: Play in editor total start time 0.093 seconds.
+[2022.03.31-03.57.37:839][ 41]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.03.31-03.57.39:749][167]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.03.31-03.57.41:651][308]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.03.31-03.57.41:932][332]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (BP_Enemy)
+[2022.03.31-03.57.42:820][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-03.57.42:820][388]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.03.31-03.57.42:821][388]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-03.57.42:821][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-03.57.42:834][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.31-03.57.42:863][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-03.57.42:868][388]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.31-03.57.42:868][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-03.57.42:871][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-03.57.42:890][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-03.57.42:892][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.03.31-03.57.42:913][389]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.03.31-03.57.47:244][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.03.31-03.57.48:683][817]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.31-03.57.48:692][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.31-03.57.48:692][817]PIE: New page: PIE session: FirstPersonExampleMap (Mar 30, 2022, 1:57:48 PM)
+[2022.03.31-03.57.48:692][817]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.03.31-03.57.48:702][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010073s)
+[2022.03.31-03.57.48:704][817]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.03.31-03.57.48:704][817]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2022.03.31-03.57.48:704][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011525s)
+[2022.03.31-03.57.48:708][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.03.31-03.57.48:709][817]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.03.31-03.57.48:709][817]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.31-03.57.48:710][817]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.31-03.57.48:710][817]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.31-03.57.48:710][817]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.31-03.57.48:710][817]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.31-03.57.48:710][817]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.31-03.57.48:710][817]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.31-03.57.48:710][817]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.31-03.57.48:710][817]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.31-03.57.48:710][817]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.31-03.57.48:714][817]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.31-03.57.48:714][817]LogAudioMixer: Display: 1: FrontRight
+[2022.03.31-03.57.48:721][817]LogAudioMixer: Display: Using Audio Device Speakers (Elgato Sound Capture)
+[2022.03.31-03.57.48:721][817]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.31-03.57.48:721][817]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.31-03.57.48:721][817]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.31-03.57.48:722][817]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.31-03.57.48:722][817]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.31-03.57.48:722][817]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.31-03.57.48:739][817]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.31-03.57.48:739][817]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.31-03.57.48:739][817]LogInit: FAudioDevice initialized.
+[2022.03.31-03.57.48:739][817]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonExampleMap'.
+[2022.03.31-03.57.48:749][817]LogLoad: Game class is 'TurretGameMode'
+[2022.03.31-03.57.48:750][817]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.03.30-20.57.48
+[2022.03.31-03.57.48:750][817]LogWorld: Bringing up level for play took: 0.001321
+[2022.03.31-03.57.48:750][817]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.03.31-03.57.48:752][817]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2022.03.31-03.57.48:753][817]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2022.03.31-03.57.48:753][817]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2022.03.31-03.57.48:753][817]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2022.03.31-03.57.48:753][817]PIE: Server logged in
+[2022.03.31-03.57.48:754][817]PIE: Play in editor total start time 0.067 seconds.
+[2022.03.31-03.57.48:754][817]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.03.31-03.57.49:640][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-03.57.49:640][886]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.03.31-03.57.49:641][886]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-03.57.49:641][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-03.57.49:655][886]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.31-03.57.49:684][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.31-03.57.49:688][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.31-03.57.49:689][886]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-03.57.49:690][886]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-03.57.49:714][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.03.31-03.57.49:734][887]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.03.31-04.03.02:878][156]Candidate modules for hot reload:
+[2022.03.31-04.03.02:878][156]  Turret
+[2022.03.31-04.03.02:878][156]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turret,6137 TurretEditor Win64 Development -Project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" "C:/Users/omigl/Documents/Turret/Turret/Turret.uproject"  -IgnoreJunk]
+[2022.03.31-04.03.02:881][156]Warning: Starting HotReload took  0.0s.
+[2022.03.31-04.03.13:979][256]CompilerResultsLog: New page: Compilation - Mar 30, 2022, 2:03:13 PM
+[2022.03.31-04.03.13:979][256]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\Turret).
+[2022.03.31-04.03.13:979][256]CompilerResultsLog: Parsing headers for TurretEditor
+[2022.03.31-04.03.13:979][256]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\omigl\Documents\Turret\Turret\Turret.uproject" "C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\TurretEditor\Development\TurretEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\omigl\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.31-04.03.13:979][256]CompilerResultsLog: Reflection code generated for TurretEditor in 5.7644001 seconds
+[2022.03.31-04.03.13:979][256]CompilerResultsLog: Building TurretEditor...
+[2022.03.31-04.03.13:979][256]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.31-04.03.13:979][256]CompilerResultsLog: Building 5 actions with 16 processes...
+[2022.03.31-04.03.13:979][256]CompilerResultsLog:   [1/5] TurretGameMode.cpp
+[2022.03.31-04.03.13:980][256]CompilerResultsLog:   [2/5] TurretGameMode.gen.cpp
+[2022.03.31-04.03.13:980][256]CompilerResultsLog:   [3/5] UE4Editor-Turret-6137.lib
+[2022.03.31-04.03.13:980][256]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-6137.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-6137.exp
+[2022.03.31-04.03.13:980][256]CompilerResultsLog:   [4/5] UE4Editor-Turret-6137.dll
+[2022.03.31-04.03.13:980][256]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-6137.suppressed.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-6137.suppressed.exp
+[2022.03.31-04.03.13:980][256]CompilerResultsLog:   [5/5] TurretEditor.target
+[2022.03.31-04.03.13:980][256]CompilerResultsLog: Total time in Parallel executor: 4.24 seconds
+[2022.03.31-04.03.13:980][256]CompilerResultsLog: Total execution time: 10.88 seconds
+[2022.03.31-04.03.13:980][256]LogMainFrame: MainFrame: Module compiling took 11.106 seconds
+[2022.03.31-04.03.18:205][256]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turret' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.03.31-04.03.18:207][256]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.03.31-04.03.18:244][256]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0126 seconds. Added 3606 classes and 861 folders.
+[2022.03.31-04.03.18:244][256]Display: HotReload took 15.4s.
+[2022.03.31-04.03.54:166][443]Candidate modules for hot reload:
+[2022.03.31-04.03.54:166][443]  Turret
+[2022.03.31-04.03.54:167][443]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turret,2591 TurretEditor Win64 Development -Project="C:/Users/omigl/Documents/Turret/Turret/Turret.uproject" "C:/Users/omigl/Documents/Turret/Turret/Turret.uproject"  -IgnoreJunk]
+[2022.03.31-04.03.54:169][443]Warning: Starting HotReload took  0.0s.
+[2022.03.31-04.03.56:387][595]CompilerResultsLog: New page: Compilation - Mar 30, 2022, 2:03:56 PM
+[2022.03.31-04.03.56:387][595]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\Turret).
+[2022.03.31-04.03.56:387][595]CompilerResultsLog: Building TurretEditor...
+[2022.03.31-04.03.56:387][595]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.31-04.03.56:387][595]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.03.31-04.03.56:387][595]CompilerResultsLog:   [1/3] UE4Editor-Turret-2591.lib
+[2022.03.31-04.03.56:387][595]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-2591.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-2591.exp
+[2022.03.31-04.03.56:387][595]CompilerResultsLog:   [2/3] UE4Editor-Turret-2591.dll
+[2022.03.31-04.03.56:387][595]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-2591.suppressed.lib and object C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\UE4Editor-Turret-2591.suppressed.exp
+[2022.03.31-04.03.56:387][595]CompilerResultsLog:   [3/3] TurretEditor.target
+[2022.03.31-04.03.56:387][595]CompilerResultsLog: Total time in Parallel executor: 1.29 seconds
+[2022.03.31-04.03.56:387][595]CompilerResultsLog: Total execution time: 2.09 seconds
+[2022.03.31-04.03.56:387][595]LogMainFrame: MainFrame: Module compiling took 2.225 seconds
+[2022.03.31-04.03.56:711][595]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turret' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.03.31-04.03.56:712][595]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.03.31-04.03.56:751][595]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0124 seconds. Added 3606 classes and 861 folders.
+[2022.03.31-04.03.56:751][595]Display: HotReload took  2.6s.
+[2022.03.31-04.04.41:099][769]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.03.31-04.04.41:113][769]LogSlate: Window 'Turret - Unreal Editor' being destroyed
+[2022.03.31-04.04.41:265][770]Cmd: QUIT_EDITOR
+[2022.03.31-04.04.41:265][770]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.03.31-04.04.41:274][770]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.03.31-04.04.41:714][770]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.03.31-04.04.41:714][770]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.03.31-04.04.41:714][770]LogAudio: Display: Audio Device unregistered from world 'FirstPersonExampleMap'.
+[2022.03.31-04.04.41:714][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-04.04.41:715][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.31-04.04.41:751][770]LogAudio: Display: Audio Device Manager Shutdown
+[2022.03.31-04.04.41:752][770]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.03.31-04.04.41:759][770]LogExit: Preparing to exit.
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E12D00] Windows
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E12C00] Default__DeviceProfile
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFD500] WindowsNoEditor
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E11500] WindowsServer
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFE500] WindowsClient
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E12400] IOS
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFD300] iPadAir
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E11D00] iPadAir2
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DABE00] IPadPro
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DABF00] iPadAir3
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E10900] iPadAir4
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA9A00] iPadMini2
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E12700] iPadMini3
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAB900] iPadMini4
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E11600] iPadMini5
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE7700] iPhone6
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE7800] iPodTouch6
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA9B00] iPhone7
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA9C00] iPodTouch7
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE5900] iPhone5S
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAAB00] iPhone6Plus
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE7900] iPhone6S
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAA500] iPhone6SPlus
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE5400] iPhone7Plus
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAAD00] iPhoneSE
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE5700] iPhone8
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DABC00] iPhone8Plus
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE7D00] iPhoneX
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA8F00] iPhoneXS
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE5C00] iPhoneXSMax
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA9100] iPhoneXR
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE5E00] iPhone11
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAB300] iPhone11Pro
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE7600] iPhone11ProMax
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA9E00] iPhoneSE2
+[2022.03.31-04.04.42:825][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE5200] iPhone12Mini
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAAE00] iPhone12
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE4400] iPhone12Pro
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAA800] iPhone12ProMax
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE7400] iPadPro105
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA8400] iPadPro129
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE4B00] iPadPro97
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAA100] iPadPro2_129
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE6700] iPad5
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA8600] iPad6
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE7B00] iPad7
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA8E00] iPad8
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE6F00] iPadPro11
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA9900] iPadPro2_11
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE7C00] iPadPro3_129
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAAF00] iPadPro4_129
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE6800] AppleTV
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAA900] AppleTV4K
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE5D00] TVOS
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAB200] Mac
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFCE00] MacClient
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E88B00] MacNoEditor
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFFB00] MacServer
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E88C00] Linux
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFCA00] LinuxAArch64
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E89100] LinuxNoEditor
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFE300] LinuxAArch64NoEditor
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E89000] LinuxClient
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFE900] LinuxAArch64Client
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E88100] LinuxServer
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFF600] LinuxAArch64Server
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAB800] Android
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFF300] Android_Low
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAAC00] Android_Mid
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFCC00] Android_High
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAA400] Android_Default
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFE600] Android_Adreno4xx
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA8D00] Android_Adreno5xx_Low
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFCB00] Android_Adreno5xx
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA8B00] Android_Adreno6xx
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFF900] Android_Adreno6xx_Vulkan
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA8100] Android_Mali_T6xx
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFC600] Android_Mali_T7xx
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAB100] Android_Mali_T8xx
+[2022.03.31-04.04.42:826][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFC800] Android_Mali_G71
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAA600] Android_Mali_G72
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFDD00] Android_Mali_G72_Vulkan
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DABD00] Android_Mali_G76
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFE100] Android_Mali_G76_Vulkan
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA9500] Android_Mali_G77
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFD900] Android_Mali_G77_Vulkan
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAA200] Android_Vulkan_SM5
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFF800] Android_PowerVR_G6xxx
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DAA700] Android_PowerVR_GT7xxx
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFF700] Android_PowerVR_GE8xxx
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA8700] Android_PowerVR_GM9xxx
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFE000] Android_PowerVR_GM9xxx_Vulkan
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA8900] Android_TegraK1
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DFD200] Android_Unknown_Vulkan
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DA9D00] Lumin
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8E11900] Lumin_Desktop
+[2022.03.31-04.04.42:827][770]LogDeviceProfile: Device profile begin destroy: [00000213C8DE6900] HoloLens
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:857][770]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:857][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.31-04.04.42:858][770]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-04.04.42:869][770]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.03.31-04.04.42:882][770]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.31-04.04.42:883][770]LogExit: Editor shut down
+[2022.03.31-04.04.42:885][770]LogExit: Transaction tracking system shut down
+[2022.03.31-04.04.43:164][770]LogExit: Object subsystem successfully closed.
+[2022.03.31-04.04.43:214][770]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.03.31-04.04.43:290][770]LogModuleManager: Shutting down and abandoning module Turret (828)
+[2022.03.31-04.04.43:290][770]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (822)
+[2022.03.31-04.04.43:290][770]LogModuleManager: Shutting down and abandoning module Voice (820)
+[2022.03.31-04.04.43:290][770]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (818)
+[2022.03.31-04.04.43:290][770]LogModuleManager: Shutting down and abandoning module SceneOutliner (816)
+[2022.03.31-04.04.43:290][770]LogModuleManager: Shutting down and abandoning module AddContentDialog (814)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module WidgetCarousel (813)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module EditorWidgets (810)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module StatsViewer (808)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (806)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (804)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module AutomationWorker (802)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module SteamVREditor (800)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module OculusMR (798)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module GooglePADEditor (796)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (794)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (792)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (790)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (788)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (786)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module PlanarCut (784)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (782)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module TextureAlignMode (780)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module BspMode (778)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module GeometryMode (776)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (774)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (772)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (770)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module CharacterAI (768)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (766)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (764)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (762)
+[2022.03.31-04.04.43:293][770]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (760)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module WebMMedia (758)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (756)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (754)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module SequenceRecorder (753)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (750)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (748)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (746)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (744)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (742)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (740)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (738)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module SmartSnapping (736)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module SessionServices (734)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module MeshPaint (732)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (730)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module FoliageEdit (728)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module LandscapeEditor (726)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module MeshPaintMode (724)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (722)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module ActorPickerMode (720)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module PlacementMode (718)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module ViewportSnapping (716)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module ViewportInteraction (714)
+[2022.03.31-04.04.43:294][770]LogModuleManager: Shutting down and abandoning module ClothPainter (712)
+[2022.03.31-04.04.43:295][770]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (711)
+[2022.03.31-04.04.43:295][770]LogModuleManager: Shutting down and abandoning module LogVisualizer (708)
+[2022.03.31-04.04.43:295][770]LogModuleManager: Shutting down and abandoning module IntroTutorials (706)
+[2022.03.31-04.04.43:295][770]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (705)
+[2022.03.31-04.04.43:295][770]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (702)
+[2022.03.31-04.04.43:295][770]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (700)
+[2022.03.31-04.04.43:295][770]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (698)
+[2022.03.31-04.04.43:295][770]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (697)
+[2022.03.31-04.04.43:907][770]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (694)
+[2022.03.31-04.04.43:907][770]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (692)
+[2022.03.31-04.04.43:907][770]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (690)
+[2022.03.31-04.04.43:907][770]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (688)
+[2022.03.31-04.04.43:907][770]LogModuleManager: Shutting down and abandoning module TraceInsights (686)
+[2022.03.31-04.04.43:907][770]MemoryProfiler: Shutdown
+[2022.03.31-04.04.43:907][770]NetworkingProfiler: Shutdown
+[2022.03.31-04.04.43:907][770]LoadingProfiler: Shutdown
+[2022.03.31-04.04.43:907][770]TimingProfiler: Shutdown
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module TraceServices (685)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (682)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (680)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module InputBindingEditor (678)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module MergeActors (676)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (674)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module LocalizationService (673)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module HardwareTargeting (670)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (668)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module UndoHistory (666)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module XmlParser (664)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module Blutility (662)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (660)
+[2022.03.31-04.04.43:909][770]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (659)
+[2022.03.31-04.04.43:910][770]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (656)
+[2022.03.31-04.04.43:910][770]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (655)
+[2022.03.31-04.04.43:910][770]LogModuleManager: Shutting down and abandoning module SettingsEditor (652)
+[2022.03.31-04.04.43:910][770]LogModuleManager: Shutting down and abandoning module ProjectLauncher (650)
+[2022.03.31-04.04.43:910][770]LogModuleManager: Shutting down and abandoning module SessionFrontend (648)
+[2022.03.31-04.04.43:910][770]LogModuleManager: Shutting down and abandoning module ProfilerClient (646)
+[2022.03.31-04.04.43:910][770]LogModuleManager: Shutting down and abandoning module DeviceManager (644)
+[2022.03.31-04.04.43:910][770]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (643)
+[2022.03.31-04.04.43:943][770]LogModuleManager: Shutting down and abandoning module AutomationController (640)
+[2022.03.31-04.04.43:943][770]LogModuleManager: Shutting down and abandoning module AutomationWindow (638)
+[2022.03.31-04.04.43:943][770]LogModuleManager: Shutting down and abandoning module Layers (636)
+[2022.03.31-04.04.43:943][770]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (634)
+[2022.03.31-04.04.43:943][770]LogModuleManager: Shutting down and abandoning module DetailCustomizations (632)
+[2022.03.31-04.04.43:943][770]LogModuleManager: Shutting down and abandoning module PackagesDialog (630)
+[2022.03.31-04.04.43:944][770]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (628)
+[2022.03.31-04.04.43:944][770]LogModuleManager: Shutting down and abandoning module Persona (626)
+[2022.03.31-04.04.43:944][770]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (625)
+[2022.03.31-04.04.43:944][770]LogModuleManager: Shutting down and abandoning module AnimGraph (623)
+[2022.03.31-04.04.43:944][770]LogModuleManager: Shutting down and abandoning module Kismet (620)
+[2022.03.31-04.04.43:945][770]LogModuleManager: Shutting down and abandoning module KismetWidgets (619)
+[2022.03.31-04.04.43:945][770]LogModuleManager: Shutting down and abandoning module GraphEditor (616)
+[2022.03.31-04.04.43:945][770]LogModuleManager: Shutting down and abandoning module StructViewer (614)
+[2022.03.31-04.04.43:946][770]LogModuleManager: Shutting down and abandoning module ClassViewer (612)
+[2022.03.31-04.04.43:950][770]LogModuleManager: Shutting down and abandoning module Toolbox (610)
+[2022.03.31-04.04.43:950][770]LogModuleManager: Shutting down and abandoning module ModuleUI (608)
+[2022.03.31-04.04.43:950][770]LogModuleManager: Shutting down and abandoning module OutputLog (606)
+[2022.03.31-04.04.43:951][770]LogModuleManager: Shutting down and abandoning module GammaUI (604)
+[2022.03.31-04.04.43:951][770]LogModuleManager: Shutting down and abandoning module Documentation (602)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module LiveCoding (600)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module LevelSequence (598)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (596)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module MovieScene (594)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (592)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module LauncherPlatform (590)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module AnalyticsET (588)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module PortalServices (586)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module PortalRpc (584)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module MessagingRpc (582)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (580)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module AudioMixerCore (579)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module AIModule (576)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module GameplayDebugger (575)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module AITestSuite (573)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module NavigationSystem (571)
+[2022.03.31-04.04.43:952][770]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (568)
+[2022.03.31-04.04.43:961][770]LogModuleManager: Shutting down and abandoning module ProfilerService (566)
+[2022.03.31-04.04.44:098][770]LogModuleManager: Shutting down and abandoning module TaskGraph (564)
+[2022.03.31-04.04.44:098][770]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (562)
+[2022.03.31-04.04.44:098][770]LogModuleManager: Shutting down and abandoning module OculusEditor (560)
+[2022.03.31-04.04.44:098][770]LogModuleManager: Shutting down and abandoning module OculusInput (558)
+[2022.03.31-04.04.44:098][770]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (556)
+[2022.03.31-04.04.44:098][770]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (554)
+[2022.03.31-04.04.44:098][770]LogModuleManager: Shutting down and abandoning module CollectionManager (553)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module SynthesisEditor (550)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module Synthesis (548)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (546)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (544)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module ScreenshotTools (542)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (540)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module GooglePAD (538)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module EditableMesh (536)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module CableComponent (534)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (532)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module AudioCapture (530)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (529)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (526)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module AssetTags (524)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (522)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module AppleImageUtils (520)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (518)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (516)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module AndroidPermission (514)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module TemplateSequence (512)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (510)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module MotoSynth (508)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module MeshConversion (506)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module DynamicMesh (504)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (502)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module GeometricObjects (500)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (498)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (497)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (494)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (492)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module PluginBrowser (490)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (488)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (486)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (484)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (482)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module CurveEditorTools (480)
+[2022.03.31-04.04.44:099][770]LogModuleManager: Shutting down and abandoning module UObjectPlugin (478)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (476)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module CryptoKeys (474)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (472)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (470)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (468)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (466)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (464)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (462)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module PluginUtils (460)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (458)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (456)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (454)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module GitSourceControl (452)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module SourceControl (451)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (448)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (446)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (444)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module MediaCompositing (442)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module ImgMedia (440)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (438)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (436)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (434)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (432)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module ChaosNiagara (430)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module FractureEditor (428)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (427)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (424)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module BackChannel (422)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (420)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module AutomationUtils (418)
+[2022.03.31-04.04.44:100][770]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (416)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module AlembicImporter (414)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module AlembicLibrary (413)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module GeometryCache (412)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (411)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (406)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (404)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (402)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (400)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module Paper2DEditor (398)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (396)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (394)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module SoundFields (390)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module SignificanceManager (388)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (386)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (384)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (382)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (378)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (376)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (374)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module ActorSequence (372)
+[2022.03.31-04.04.44:101][770]LogModuleManager: Shutting down and abandoning module TcpMessaging (370)
+[2022.03.31-04.04.44:202][770]LogModuleManager: Shutting down and abandoning module UdpMessaging (368)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (366)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module FacialAnimation (364)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (362)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module DataValidation (360)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (358)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (356)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (354)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (352)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (350)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (348)
+[2022.03.31-04.04.44:303][770]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (346)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (344)
+[2022.03.31-04.04.44:303][770]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (342)
+[2022.03.31-04.04.44:304][770]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (340)
+[2022.03.31-04.04.44:304][770]LogModuleManager: Shutting down and abandoning module MagicLeapController (338)
+[2022.03.31-04.04.44:304][770]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.03.31-04.04.44:305][770]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (336)
+[2022.03.31-04.04.44:305][770]LogModuleManager: Shutting down and abandoning module MagicLeapAR (334)
+[2022.03.31-04.04.44:305][770]LogModuleManager: Shutting down and abandoning module AugmentedReality (333)
+[2022.03.31-04.04.44:305][770]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (330)
+[2022.03.31-04.04.44:305][770]LogModuleManager: Shutting down and abandoning module Niagara (328)
+[2022.03.31-04.04.44:305][770]LogModuleManager: Shutting down and abandoning module SignalProcessing (327)
+[2022.03.31-04.04.44:305][770]LogModuleManager: Shutting down and abandoning module NiagaraEditor (325)
+[2022.03.31-04.04.44:306][770]LogModuleManager: Shutting down and abandoning module NiagaraCore (322)
+[2022.03.31-04.04.44:306][770]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (320)
+[2022.03.31-04.04.44:306][770]LogModuleManager: Shutting down and abandoning module LevelEditor (319)
+[2022.03.31-04.04.44:310][770]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (318)
+[2022.03.31-04.04.44:310][770]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (316)
+[2022.03.31-04.04.44:311][770]LogModuleManager: Shutting down and abandoning module MainFrame (314)
+[2022.03.31-04.04.44:311][770]LogModuleManager: Shutting down and abandoning module HotReload (313)
+[2022.03.31-04.04.44:312][770]LogModuleManager: Shutting down and abandoning module ToolMenus (309)
+[2022.03.31-04.04.44:312][770]LogModuleManager: Shutting down and abandoning module ContentBrowser (307)
+[2022.03.31-04.04.44:313][770]LogModuleManager: Shutting down and abandoning module ContentBrowserData (306)
+[2022.03.31-04.04.44:313][770]LogModuleManager: Shutting down and abandoning module TreeMap (303)
+[2022.03.31-04.04.44:313][770]LogModuleManager: Shutting down and abandoning module AnimationSharing (300)
+[2022.03.31-04.04.44:313][770]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (298)
+[2022.03.31-04.04.44:313][770]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (296)
+[2022.03.31-04.04.44:313][770]LogModuleManager: Shutting down and abandoning module Paper2D (294)
+[2022.03.31-04.04.44:313][770]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (292)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (290)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (288)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module PacketHandler (286)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (284)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (282)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module MediaAssets (280)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module Overlay (278)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module OverlayEditor (277)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module VREditor (274)
+[2022.03.31-04.04.44:314][770]LogModuleManager: Shutting down and abandoning module StringTableEditor (272)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (270)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (268)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module FunctionalTesting (266)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (264)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (263)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module UMG (260)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module UMGEditor (259)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module MessageLog (257)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module SlateReflector (252)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module Slate (250)
+[2022.03.31-04.04.44:315][770]LogModuleManager: Shutting down and abandoning module SlateCore (248)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (246)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module UnrealEd (244)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module MRMesh (242)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (240)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (238)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module XAudio2 (236)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module Networking (234)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module Core (232)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module MaterialEditor (230)
+[2022.03.31-04.04.44:316][770]LogModuleManager: Shutting down and abandoning module MovieSceneTools (228)
+[2022.03.31-04.04.44:317][770]LogModuleManager: Shutting down and abandoning module CurveEditor (227)
+[2022.03.31-04.04.44:317][770]LogModuleManager: Shutting down and abandoning module Sequencer (225)
+[2022.03.31-04.04.44:317][770]LogModuleManager: Shutting down and abandoning module EditorStyle (224)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module KismetCompiler (220)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module MeshBuilder (218)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module MeshUtilities (216)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (215)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (214)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (213)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (211)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (209)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (207)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module MaterialBaking (203)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (198)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module DerivedDataCache (196)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module TargetPlatform (194)
+[2022.03.31-04.04.44:320][770]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (191)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (189)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (187)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (185)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (183)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (181)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (179)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (177)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (175)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (173)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module ImageWrapper (172)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (169)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (167)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (165)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (163)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (161)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (159)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (157)
+[2022.03.31-04.04.44:321][770]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (155)
+[2022.03.31-04.04.44:332][770]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (153)
+[2022.03.31-04.04.44:332][770]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (151)
+[2022.03.31-04.04.44:332][770]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (149)
+[2022.03.31-04.04.44:333][770]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (147)
+[2022.03.31-04.04.44:333][770]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (145)
+[2022.03.31-04.04.44:345][770]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (143)
+[2022.03.31-04.04.44:345][770]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (141)
+[2022.03.31-04.04.44:345][770]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (139)
+[2022.03.31-04.04.44:345][770]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (137)
+[2022.03.31-04.04.44:345][770]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (135)
+[2022.03.31-04.04.44:345][770]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (133)
+[2022.03.31-04.04.44:345][770]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (131)
+[2022.03.31-04.04.44:345][770]LogModuleManager: Shutting down and abandoning module Messaging (129)
+[2022.03.31-04.04.44:345][770]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (127)
+[2022.03.31-04.04.44:351][770]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (125)
+[2022.03.31-04.04.44:373][770]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (123)
+[2022.03.31-04.04.44:373][770]LogModuleManager: Shutting down and abandoning module InputCore (120)
+[2022.03.31-04.04.44:373][770]LogModuleManager: Shutting down and abandoning module Settings (118)
+[2022.03.31-04.04.44:373][770]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (116)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module PhysXCooking (114)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module Chaos (112)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (110)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (109)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module AVEncoder (108)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (104)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module SteamVRInput (102)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module SteamVR (100)
+[2022.03.31-04.04.44:375][770]LogHMD: Freeing OpenVRDLLHandle.
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module OculusHMD (98)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (92)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (90)
+[2022.03.31-04.04.44:375][770]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2022.03.31-04.04.44:377][770]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2022.03.31-04.04.44:377][770]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2022.03.31-04.04.44:410][770]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2022.03.31-04.04.44:410][770]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.03.31-04.04.44:410][770]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBD603D88-403D-279A-9AEF-6798E8B04505%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=112ab8094ea15b4f994907863ee7cdd9%7C3047b4d725e841ab9d5d4b8f0dc3dce0%7Cf7675cd6-99f6-4685-9380-0d2645e123f5&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.03.31-04.04.44:410][770]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.03.31-04.04.44:429][770]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2022.03.31-04.04.44:432][770]LogModuleManager: Shutting down and abandoning module MLSDK (72)
+[2022.03.31-04.04.44:432][770]LogModuleManager: Shutting down and abandoning module VariantManagerContent (70)
+[2022.03.31-04.04.44:432][770]LogModuleManager: Shutting down and abandoning module WmfMedia (68)
+[2022.03.31-04.04.44:434][770]LogModuleManager: Shutting down and abandoning module Media (67)
+[2022.03.31-04.04.44:436][770]LogModuleManager: Shutting down and abandoning module MediaInfo (66)
+[2022.03.31-04.04.44:436][770]LogModuleManager: Shutting down and abandoning module DatasmithContent (62)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (60)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module ChaosCloth (56)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (54)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module NiagaraShader (52)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2022.03.31-04.04.44:437][770]LogXGEController: Cleaning working directory: C:/Users/omigl/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.03.31-04.04.44:437][770]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.03.31-04.04.44:438][770]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.03.31-04.04.44:438][770]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.03.31-04.04.44:438][770]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.03.31-04.04.44:438][770]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.03.31-04.04.44:438][770]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.03.31-04.04.44:439][770]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.03.31-04.04.44:440][770]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.03.31-04.04.44:443][770]LogD3D11RHI: Shutdown
+[2022.03.31-04.04.44:443][770]LogD3D11RHI: CleanupD3DDevice
+[2022.03.31-04.04.44:474][770]LogExit: Exiting.
+[2022.03.31-04.04.44:488][770]Log file closed, 03/30/22 21:04:44
