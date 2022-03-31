@@ -3,6 +3,7 @@
 
 #include "EnemyController.h"
 #include "Components/BoxComponent.h"
+#include "TurretGameMode.h"
 #include "Kismet/GameplayStatics.h"
 
 
@@ -49,11 +50,16 @@ void AEnemyController::OnOverlap
 	{
 		OtherActor->Destroy();
 		this->Destroy();
+
+		((ATurretGameMode*)GetWorld()->GetAuthGameMode())->
+			ChangeScore(50);
 	}
 	else
 	{
-		UGameplayStatics::SetGamePaused(GetWorld(),
-			true);
+		this->Destroy();
+
+		((ATurretGameMode*)GetWorld()->GetAuthGameMode())->
+			ChangeHealth(-20);
 	}
 }
 
