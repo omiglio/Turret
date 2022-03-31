@@ -32,6 +32,10 @@ void AEnemyController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	FVector NewLocation = GetActorLocation();
+	NewLocation.X += Direction.X * Speed * DeltaTime;
+	NewLocation.Y += Direction.Y * Speed * DeltaTime;
+	SetActorLocation(NewLocation);
 }
 
 void AEnemyController::OnOverlap
