@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Turret.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8705A29D-0D1E-4EB0-A43C-42388C6E688C}</UniqueIdentifier>
+      <UniqueIdentifier>{942E74C1-24DE-47A7-B87A-F76A8ED5A37B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Turret.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{05C34CCE-B42C-43C0-8067-64B327D0D1B3}</UniqueIdentifier>
+      <UniqueIdentifier>{5C2966F5-4924-4378-811B-7429C0995E86}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Turret">
-      <UniqueIdentifier>{EA75261F-607A-40F1-8F6D-6C86CD1F48D3}</UniqueIdentifier>
+      <UniqueIdentifier>{09B2B4D1-1A4A-4945-9169-860DC9486D8F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Turret\EnemyController.cpp">
       <Filter>Source\Turret</Filter>
@@ -53,12 +53,6 @@
       <Filter>Source\Turret</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Turret\TurretCharacter.h">
-      <Filter>Source\Turret</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Turret\TurretGameMode.cpp">
-      <Filter>Source\Turret</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Turret\TurretGameMode.h">
       <Filter>Source\Turret</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Turret\TurretHUD.cpp">

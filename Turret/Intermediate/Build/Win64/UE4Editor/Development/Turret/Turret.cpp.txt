@@ -1,2 +1,0 @@
-C:\Users\omigl\Documents\Turret\Turret\Intermediate\Build\Win64\UE4Editor\Development\Turret\Definitions.Turret.h
-C:\Users\omigl\Documents\Turret\Turret\Source\Turret\Turret.h
