@@ -45,7 +45,7 @@ void ATurretGameMode::Tick(float DeltaSeconds)
 			AEnemyController* enemy = World->SpawnActor<
 				AEnemyController>(EnemyBlueprint, enemyLocation,
 				FRotator::ZeroRotator);
-			enemy->Direction = (playerLocation - enemyLocation). // When you subtract two points you get a Vector. 
+				enemy->Direction = (playerLocation - enemyLocation). // When you subtract two points you get a Vector. 
 				GetSafeNormal();
 		}
 	}
